@@ -3,4 +3,6 @@
 #git status	工作区状态
 #git log	提交日志
 #git reflog	历史命令
-#git reset --hard head^|[commot_id]	切换版本
+#git reset --hard head^|[commot_id]	切换版本	commit already
+#git checkout -- [file_name]	忽略暂未添加到暂存区的文件修改	modified but not add
+#git reset HEAD [file_name]	撤销添加到暂存区的文件修改	add but not commit
